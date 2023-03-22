@@ -27,4 +27,4 @@ mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: tr
     .catch((error) => console.log(error));
 
 
-export function app();
+export default app()
